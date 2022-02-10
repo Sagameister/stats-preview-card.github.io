@@ -45,11 +45,13 @@ h1 {
     display: flex;
     border-radius: 10px;
     overflow: hidden;
+    visibility: hidden;
 }
 
 .content-wrapper {
     width: 52%;
-    padding: 70px 130px 30px 70px
+    padding: 70px 130px 30px 70px;
+    overflow: hidden;
 }
 .content-wrapper span {
     color: var(--pink);
@@ -72,7 +74,7 @@ h1 {
 }
 .stat-wrapper p {
     font-size: 11px;
-    letter-spacing: 1.9px;
+    letter-spacing: 1.8px;
 }
 .img-wrapper {
     overflow: hidden;
