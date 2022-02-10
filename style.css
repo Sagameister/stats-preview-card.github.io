@@ -1,3 +1,13 @@
+/* Variables */
+:root{
+
+    --l-purp: #7F7C9D;
+    --pink: #B05BDD;
+    --white: #fff;
+    --dark-purp: #0A0C1B;
+    --purp: #1C1938;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,15 +15,15 @@
 }
 
 body {
-    background: #0A0C1B;
-    color: #fff;
+    background: var(--dark-purp);
+    color: var(--white);
     font-family: Deca, sans-serif;
 }
 p {
     font-size: 15px;
     line-height: 1.6;
     margin-bottom: 30px;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.6px;
 }
 h1 {
     font-size: 2.2rem;
@@ -31,7 +41,7 @@ h1 {
 .main-wrapper {
     width: 1110px;
     height: auto;
-    background: #1C1938;
+    background: var(--purp);
     display: flex;
     border-radius: 10px;
     overflow: hidden;
@@ -42,10 +52,10 @@ h1 {
     padding: 70px 130px 30px 70px
 }
 .content-wrapper span {
-    color: #B05BDD;
+    color: var(--pink);
 }
 .content-wrapper p {
-    color: #7F7C9D;
+    color: var(--l-purp);
 }
 
 .stat-wrapper {
@@ -62,11 +72,11 @@ h1 {
 }
 .stat-wrapper p {
     font-size: 11px;
-    letter-spacing: 1.7px;
+    letter-spacing: 1.9px;
 }
 .img-wrapper {
     overflow: hidden;
-    background-color: #B05BDD;
+    background-color: var(--pink);
 }
 .img-wrapper img {
     height: 100%;
